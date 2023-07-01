@@ -25,7 +25,7 @@ dx = "a"
 dy = "a"
 #como se especifica en los requerimientos del proyecto no se admite el valos de "0" para ninguna de las entradas X o Y, para eso utilizamos un "if" y con un "or" en conjunto
 if x == 0 or y == 0:
-    print("\n\tLo sentimos, pero se admiten ceros, por favor intenta con otro valor (Negativo o positivo)")
+    print("\n\tLo sentimos, pero no se admiten ceros, por favor intenta con otro valor (Negativo o positivo)")
     exit()
 #para los demas casos en que la entrada no es "0" utilizamos los "elif" y "else" para igualar lso valores de "cuad" "dx" y "dy" segun el caso que aplique
 elif x > 0 and y > 0:
